@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Food Delivery - Booking</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Food Delivery</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="booking.html" class="active">Booking</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="booking">
+      <h2>Your Booking</h2>
+      <div id="booking-items">
+        <p>No items in your booking.</p>
+      </div>
+      <div id="booking-summary" style="display:none;">
+        <h3>Summary</h3>
+        <p>Total Items: <span id="total-items">0</span></p>
+        <p>Total Price: $<span id="total-price">0.00</span></p>
+        <button id="submit-booking" class="btn">Submit Booking</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Food Delivery. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
